@@ -87,7 +87,7 @@ word2vec_loaded = False
 dict = pickle.load(open("data/word_dict.p", "rb"))
 
 # Load Weights and bias
-W = np.load('weights.npy')
-b = np.load('bias.npy')
+W = np.load('data/weights.npy')
+b = np.load('data/bias.npy')
 
 window.mainloop()
