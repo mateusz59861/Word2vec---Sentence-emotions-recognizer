@@ -21,4 +21,13 @@ To test neural network, type in Command Prompt:
 Emoticon Recognizer GUI will appear. Type your sentence and <b>Recognize emotion</b>. Now you can test how neural network is working without Word2vec model, basing only on words found in input data. To load Word2vec model, click <b>Load word2vec model</b>.
 
 
+Algorithm used to train neural network:
 ![alt text](https://datascience-enthusiast.com/figures/image_1.png)
+1. Split sentences into words
+2. Convert words to vectors using word2vec model
+3. Computr average vector from all vectors in sentence - this will be an input to a network
+4. Convert emoticon label to one-hot vector - this will be an output
+5. Compute output by just executing dot product of weights and input vector
+6. Normalize output using softmax function
+7. Compute cost function and weights and bias gradients
+8. Update weights and bias
