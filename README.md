@@ -31,3 +31,12 @@ Algorithm used to train neural network:
 6. Normalize output using softmax function
 7. Compute cost function and weights and bias gradients
 8. Update weights and bias
+
+Data used to build neural model consists of 188 sentences. Test data rate was 10%, wchich is 19 sentences, and 169 trainig sentences. 
+    NN
+Data	 	 	 	 	 
+ 	32/33	0/33	0/33	1/33	0/33
+ 	0/24	24/24	0/24	0/24	0/24
+ 	0/56	0/56	55/56	1/56	0/56
+ 	0/52	0/52	1/52	51/52	0/52
+ 	0/23	0/23	0/23	0/23	23/23
