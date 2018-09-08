@@ -2,26 +2,20 @@
 
 Neural network for basic sentences classification and Emoticon assingment using pretrained Google Word2vec model.
 
-Unzip all files to one common folder.
-
-Download Google Word2vec dictionary file <b>GoogleNews-vectors-negative300.bin.gz</b> from
+Unzip all files to one common folder. Then download Google Word2vec dictionary file <b>GoogleNews-vectors-negative300.bin.gz</b> from
 https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit
 to the project root folder.
 
-To retrain existing neural network ("net" folder), type in Command Prompt:
+To train neural network, first create a dictionary and prepare input data by running <i>create_dictionary.py</i> script. Type in Command Prompt:
 
-> python path_to_"train_model.py"_file
+> python path_to_"create_dictionary.py"_file
 
-To train new neural network, delete existing "net" folder before execute above command.
+To train neural network, type in Command Prompt:
 
+> python path_to_"train_emotions.py"_file
 
 To test neural network, type in Command Prompt:
 
-> python "Recognizer.py"_file
+> python path_to_"Recognizer.py"_file
 
-Shape Recognizer GUI will appear. Load image and Recognize shape.
-
-
-
-GoogleNews-vectors-negative300.bin.gz
-https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit
+Emoticon Recognizer GUI will appear. Type your sentence and <b>Recognize emotion</b>. Now you can test how neural network is working without Word2vec model, basing only on words found in input data. To load Word2vec model, click <b>Load word2vec model</b>.
