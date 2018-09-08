@@ -32,6 +32,11 @@ Algorithm used to train neural network:
 7. Compute cost function and weights and bias gradients
 8. Update weights and bias
 
-Data used to build neural model consists of 188 sentences. Test data rate was 10%, wchich is 19 sentences, and 169 trainig sentences. 
+Data used to build neural model consists of 188 sentences. Test data rate was 10%, wchich is 19 sentences, and 169 trainig sentences.
+
+Final results:
+Train data - 100% accuracy
+Test data - 84.2% accuracy - 3 overshoot predictions
+All data - 98.4% accuracy - 3 overshoot predictions
 
 ![Alt text](/images/table.PNG?raw=true "Optional Title")
