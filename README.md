@@ -34,4 +34,4 @@ Algorithm used to train neural network:
 
 Data used to build neural model consists of 188 sentences. Test data rate was 10%, wchich is 19 sentences, and 169 trainig sentences. 
 
-![Alt text](/images/table.png?raw=true "Optional Title")
+![Alt text](/images/table.PNG?raw=true "Optional Title")
